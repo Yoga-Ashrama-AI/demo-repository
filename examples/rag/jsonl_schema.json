@@ -1,0 +1,4 @@
+{
+"description": "JSONL ingestion schema (each line is a record).",
+"fields": ["id","source","version","section","text","hash","rights","tags"]
+}
