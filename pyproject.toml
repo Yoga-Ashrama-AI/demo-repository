@@ -1,0 +1,8 @@
+[project]
+name = "demo-repository"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["fastapi", "uvicorn", "pydantic", "pytest", "httpx"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
