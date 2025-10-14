@@ -1,4 +1,15 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+# Demo Repository — CI/CD + LLMOps Patterns (Public, Redacted)
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+This repo showcases my contract-ready skills without exposing private IP:
+- **CI/CD**: reusable GitHub Actions, semantic releases, SBOM + image signing.
+- **API**: FastAPI service with idempotent request pattern + health endpoints.
+- **LLMOps/RAG**: JSONL ingestion schema + minimal retriever stub.
+- **Governance**: pre-commit, commitlint, SECURITY.md, LICENSE.
+
+> Private YAAI repo contains proprietary modules, data, and agent configs; this public repo mirrors the **patterns** only.
+
+## Quickstart
+```bash
+make dev          # run FastAPI with reload
+make test         # run pytest
+make build        # docker build + sbom + attest
