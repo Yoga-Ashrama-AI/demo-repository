@@ -4,7 +4,7 @@ on:
     branches: ["main"]
   pull_request:
 
-# 👇 default to read-only everywhere
+# default least-privilege (satisfies CodeQL)
 permissions:
   contents: read
 
@@ -27,7 +27,7 @@ jobs:
         run: pytest -q
 
   build-and-push:
-    # 👇 only this job gets extra scopes because it pushes to GHCR
+    # this job needs extra scopes to push to GHCR
     permissions:
       contents: read
       packages: write
