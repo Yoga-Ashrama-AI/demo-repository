@@ -6,7 +6,7 @@ This repo showcases my contract-ready skills without exposing private IP:
 - **CI/CD**: reusable GitHub Actions, semantic releases, SBOM + image signing.
 - **API**: FastAPI service with idempotent request pattern + health endpoints.
 - **LLMOps/RAG**: JSONL ingestion schema + minimal retriever stub.
-- **Governance**: pre-commit, commitlint, SECURITY.md, LICENSE.
+- **Governance**: pre-commit, commitlint, SECURITY.md, LICENSE, SECURITY.
 
 > Private YAAI repo contains proprietary modules, data, and agent configs; this public repo mirrors the **patterns** only.
 
