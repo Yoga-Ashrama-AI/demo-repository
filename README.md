@@ -1,3 +1,5 @@
+![ci](https://github.com/Yoga-Ashrama-AI/demo-repository/actions/workflows/ci.yml/badge.svg)
+
 # Demo Repository — CI/CD + LLMOps Patterns (Public, Redacted)
 
 This repo showcases my contract-ready skills without exposing private IP:
