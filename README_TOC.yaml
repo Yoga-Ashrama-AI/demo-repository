@@ -1,0 +1,10 @@
+# README_TOC.yaml
+# Table of contents for GitHub documentation navigation
+
+docs:
+  - title: "Architecture Overview"
+    file: "architecture/Universal_Semantic_Layer.md"
+  - title: "Semantic Layer Metrics"
+    file: "semantic/metrics/"
+  - title: "AI Gateway"
+    file: "ai/gateway/"
